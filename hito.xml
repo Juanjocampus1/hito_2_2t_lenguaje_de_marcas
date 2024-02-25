@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "file:/E:/deberes/1%C2%BA%20de%20DAM/LENGUAJE%20DE%20MARCAS/hito_2/hito.dtd">
+<?xml-stylesheet type="text/xsl" href="file:/E:/deberes/1%C2%BA%20de%20DAM/LENGUAJE%20DE%20MARCAS/hito_2/hito.xsl"?>
+<pedidos>
+    <anio year="2021">
+        <trimestre num="1">
+            <pedido>
+                <cliente>
+                    <nombre>Juan</nombre>
+                    <apellidos>García Pérez</apellidos>
+                    <telefono>123456789</telefono>
+                    <direccion>
+                        <calle>Calle Mayor 123</calle>
+                        <ciudad>Madrid</ciudad>
+                        <codigo_postal>28001</codigo_postal>
+                        <provincia>Madrid</provincia>
+                    </direccion>
+                    <correo>juan@example.com</correo>
+                </cliente>
+                <fecha_inclusion>2021-01-05</fecha_inclusion>
+                <detalle_pedido>
+                    <numero_pedido>001</numero_pedido>
+                    <fecha_compra>2021-01-05</fecha_compra>
+                    <fecha_entrega>2021-01-10</fecha_entrega>
+                    <total_factura>120.00</total_factura>
+                    <productos>
+                        <producto>
+                            <nombre>Zapatillas deportivas</nombre>
+                            <referencia>ZD001</referencia>
+                            <precio>60.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Camiseta deportiva</nombre>
+                            <referencia>CD001</referencia>
+                            <precio>30.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detalle_pedido>
+            </pedido>
+            <pedido>
+                <cliente>
+                    <nombre>María</nombre>
+                    <apellidos>Gómez Martínez</apellidos>
+                    <telefono>987654321</telefono>
+                    <direccion>
+                        <calle>Avenida Central 456</calle>
+                        <ciudad>Barcelona</ciudad>
+                        <codigo_postal>08001</codigo_postal>
+                        <provincia>Barcelona</provincia>
+                    </direccion>
+                    <correo>maria@example.com</correo>
+                </cliente>
+                <fecha_inclusion>2021-01-10</fecha_inclusion>
+                <detalle_pedido>
+                    <numero_pedido>002</numero_pedido>
+                    <fecha_compra>2021-01-10</fecha_compra>
+                    <fecha_entrega>2021-01-15</fecha_entrega>
+                    <total_factura>85.00</total_factura>
+                    <productos>
+                        <producto>
+                            <nombre>Pantalones vaqueros</nombre>
+                            <referencia>PV001</referencia>
+                            <precio>45.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Camisa de cuadros</nombre>
+                            <referencia>CC001</referencia>
+                            <precio>40.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detalle_pedido>
+            </pedido>
+            <pedido>
+               <cliente>
+                  <nombre>Pablo</nombre>
+                  <apellidos>Ruiz Sánchez</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle del Sol 789</calle>
+                      <ciudad>Sevilla</ciudad>
+                      <codigo_postal>41001</codigo_postal>
+                      <provincia>Sevilla</provincia>
+                  </direccion>
+                  <correo>pablo@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-02-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>2021-02-15</fecha_compra>
+                  <fecha_entrega>2021-02-20</fecha_entrega>
+                  <total_factura>150.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Zapatos de vestir</nombre>
+                          <referencia>ZV001</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Cinturón de piel</nombre>
+                          <referencia>CP001</referencia>
+                          <precio>70.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+        </trimestre>
+    </anio>
+</pedidos>
