@@ -1,5 +1,5 @@
 <!ELEMENT pedidos (anio)>
-<!ELEMENT anio (trimestre)>
+<!ELEMENT anio (trimestre+)>
 <!ATTLIST anio
           year CDATA #REQUIRED>
 <!ELEMENT trimestre (pedido+)>

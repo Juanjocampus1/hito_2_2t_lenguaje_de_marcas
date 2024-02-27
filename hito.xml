@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pedidos SYSTEM "file:/E:/deberes/1%C2%BA%20de%20DAM/LENGUAJE%20DE%20MARCAS/hito_2/hito.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="file:/E:/deberes/1%C2%BA%20de%20DAM/LENGUAJE%20DE%20MARCAS/hito_2/xsl2.xsl"?>-->
+
 <?xml-stylesheet type="text/xsl" href="file:/E:/deberes/1%C2%BA%20de%20DAM/LENGUAJE%20DE%20MARCAS/hito_2/hito.xsl"?>
 <pedidos>
     <anio year="2021">
@@ -109,6 +111,3104 @@
                   </productos>
               </detalle_pedido>
           </pedido>
+          <pedido>
+            <cliente>
+                <nombre>María</nombre>
+                <apellidos>López García</apellidos>
+                <telefono>123456789</telefono>
+                <direccion>
+                    <calle>Avenida de la Paz 123</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28001</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>maria@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-03-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2021-03-10</fecha_compra>
+                <fecha_entrega>2021-03-15</fecha_entrega>
+                <total_factura>95.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta básica</nombre>
+                        <referencia>CB001</referencia>
+                        <precio>25.00</precio>
+                        <unidades>2</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones de mezclilla</nombre>
+                        <referencia>PM001</referencia>
+                        <precio>35.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Fernández Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Mayor 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08002</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>carlos@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-04-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2021-04-05</fecha_compra>
+                <fecha_entrega>2021-04-10</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC002</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>González Pérez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Plaza España 789</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41002</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-05-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2021-05-20</fecha_compra>
+                <fecha_entrega>2021-05-25</fecha_entrega>
+                <total_factura>65.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Gorra de béisbol</nombre>
+                        <referencia>GB001</referencia>
+                        <precio>20.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes de cuero</nombre>
+                        <referencia>GC001</referencia>
+                        <precio>45.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Jiménez Rodríguez</apellidos>
+                <telefono>123456789</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía 123</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28003</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-06-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2021-06-15</fecha_compra>
+                <fecha_entrega>2021-06-20</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Reloj de pulsera</nombre>
+                        <referencia>RP001</referencia>
+                        <precio>150.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Collar de plata</nombre>
+                        <referencia>CP002</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Rodríguez Martín</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Paseo de la Castellana 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08003</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-07-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2021-07-10</fecha_compra>
+                <fecha_entrega>2021-07-15</fecha_entrega>
+                <total_factura>80.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Cartera de cuero</nombre>
+                        <referencia>CC003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Paraguas transparente</nombre>
+                        <referencia>PT001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>Ruiz López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Ronda de Valencia 789</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41003</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>javier@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-08-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2021-08-25</fecha_compra>
+                <fecha_entrega>2021-08-30</fecha_entrega>
+                <total_factura>140.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Gafas de sol</nombre>
+                        <referencia>GS001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de seda</nombre>
+                        <referencia>BS001</referencia>
+                        <precio>60.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Elena</nombre>
+                <apellidos>Fernández Sánchez</apellidos>
+                <telefono>123456789</telefono>
+                <direccion>
+                    <calle>Calle del Mar 123</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28004</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>elena@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-09-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>010</numero_pedido>
+                <fecha_compra>2021-09-15</fecha_compra>
+                <fecha_entrega>2021-09-20</fecha_entrega>
+                <total_factura>180.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Maletín de viaje</nombre>
+                        <referencia>MV001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes de lana</nombre>
+                        <referencia>GL001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+              </detalle_pedido>
+           </pedido>
         </trimestre>
+        <trimestre num="2">
+          <pedido>
+              <cliente>
+                  <nombre>Luis</nombre>
+                  <apellidos>Gómez López</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle Mayor 456</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28005</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>luis@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-04-10</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>011</numero_pedido>
+                  <fecha_compra>2021-04-10</fecha_compra>
+                  <fecha_entrega>2021-04-15</fecha_entrega>
+                  <total_factura>75.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Gafas de lectura</nombre>
+                          <referencia>GL002</referencia>
+                          <precio>25.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Libreta de cuero</nombre>
+                          <referencia>LC001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Isabel</nombre>
+                  <apellidos>Rodríguez Gómez</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 456</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08004</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>isabel@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-05-05</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>012</numero_pedido>
+                  <fecha_compra>2021-05-05</fecha_compra>
+                  <fecha_entrega>2021-05-10</fecha_entrega>
+                  <total_factura>110.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Bolso de mano</nombre>
+                          <referencia>BM001</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pañuelo de seda</nombre>
+                          <referencia>PS001</referencia>
+                          <precio>30.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Lucas</nombre>
+                  <apellidos>Martínez Ruiz</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle Mayor 789</calle>
+                      <ciudad>Sevilla</ciudad>
+                      <codigo_postal>41004</codigo_postal>
+                      <provincia>Sevilla</provincia>
+                  </direccion>
+                  <correo>lucas@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-06-20</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>013</numero_pedido>
+                  <fecha_compra>2021-06-20</fecha_compra>
+                  <fecha_entrega>2021-06-25</fecha_entrega>
+                  <total_factura>90.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Bufanda de algodón</nombre>
+                          <referencia>BA001</referencia>
+                          <precio>30.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Guantes de lana</nombre>
+                          <referencia>GL002</referencia>
+                          <precio>60.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Marta</nombre>
+                  <apellidos>Sánchez López</apellidos>
+                  <telefono>123456789</telefono>
+                  <direccion>
+                      <calle>Paseo de Gracia 123</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28006</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>marta@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-07-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>014</numero_pedido>
+                  <fecha_compra>2021-07-15</fecha_compra>
+                  <fecha_entrega>2021-07-20</fecha_entrega>
+                  <total_factura>65.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Camiseta de algodón</nombre>
+                          <referencia>CA001</referencia>
+                          <precio>25.00</precio>
+                          <unidades>2</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones cortos</nombre>
+                          <referencia>PC001</referencia>
+                          <precio>20.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Jorge</nombre>
+                  <apellidos>García Martínez</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Ronda de Valencia 456</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08005</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>jorge@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-08-10</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>015</numero_pedido>
+                  <fecha_compra>2021-08-10</fecha_compra>
+                  <fecha_entrega>2021-08-15</fecha_entrega>
+                  <total_factura>150.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Chaqueta de invierno</nombre>
+                          <referencia>CI001</referencia>
+                          <precio>100.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Bufanda de lana</nombre>
+                          <referencia>BL002</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+            <cliente>
+                <nombre>Andrea</nombre>
+                <apellidos>González Martínez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28007</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>andrea@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-09-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>016</numero_pedido>
+                <fecha_compra>2021-09-20</fecha_compra>
+                <fecha_entrega>2021-09-25</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta de manga larga</nombre>
+                        <referencia>CM001</referencia>
+                        <precio>35.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones de vestir</nombre>
+                        <referencia>PV002</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>Fernández Gómez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08006</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>sara@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-10-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>017</numero_pedido>
+                <fecha_compra>2021-10-05</fecha_compra>
+                <fecha_entrega>2021-10-10</fecha_entrega>
+                <total_factura>130.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Zapatos de tacón</nombre>
+                        <referencia>ZT001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Collar de perlas</nombre>
+                        <referencia>CP003</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Miguel</nombre>
+                <apellidos>Rodríguez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41005</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>miguel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-11-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>018</numero_pedido>
+                <fecha_compra>2021-11-15</fecha_compra>
+                <fecha_entrega>2021-11-20</fecha_entrega>
+                <total_factura>95.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC003</referencia>
+                        <precio>65.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de algodón</nombre>
+                        <referencia>BA002</referencia>
+                        <precio>30.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Gómez Sánchez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08007</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>daniel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2021-12-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>019</numero_pedido>
+                <fecha_compra>2021-12-10</fecha_compra>
+                <fecha_entrega>2021-12-15</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gorra de lana</nombre>
+                        <referencia>GL003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Javier</nombre>
+                <apellidos>Ruiz Martínez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Ronda de Valencia 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41006</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>javier@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>020</numero_pedido>
+                <fecha_compra>2022-01-15</fecha_compra>
+                <fecha_entrega>2022-01-20</fecha_entrega>
+                <total_factura>110.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL003</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes de cuero</nombre>
+                        <referencia>GC002</referencia>
+                        <precio>60.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+          </pedido>
+        </trimestre>
+        <trimestre num="3">
+          <pedido>
+              <cliente>
+                  <nombre>Lucía</nombre>
+                  <apellidos>Gómez Martínez</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle Mayor 789</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28008</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>lucia@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-02-01</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>021</numero_pedido>
+                  <fecha_compra>2022-02-01</fecha_compra>
+                  <fecha_entrega>2022-02-05</fecha_entrega>
+                  <total_factura>95.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Jersey de punto</nombre>
+                          <referencia>JP001</referencia>
+                          <precio>55.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Bufanda de lana</nombre>
+                          <referencia>BL004</referencia>
+                          <precio>40.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Daniel</nombre>
+                  <apellidos>Rodríguez Martínez</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 789</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08008</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>daniel@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-02-05</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>022</numero_pedido>
+                  <fecha_compra>2022-02-05</fecha_compra>
+                  <fecha_entrega>2022-02-10</fecha_entrega>
+                  <total_factura>120.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Zapatos deportivos</nombre>
+                          <referencia>ZD002</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Calcetines deportivos</nombre>
+                          <referencia>CD002</referencia>
+                          <precio>40.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Laura</nombre>
+                  <apellidos>García Sánchez</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle Mayor 123</calle>
+                      <ciudad>Sevilla</ciudad>
+                      <codigo_postal>41007</codigo_postal>
+                      <provincia>Sevilla</provincia>
+                  </direccion>
+                  <correo>laura@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-02-10</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>023</numero_pedido>
+                  <fecha_compra>2022-02-10</fecha_compra>
+                  <fecha_entrega>2022-02-15</fecha_entrega>
+                  <total_factura>110.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Sudadera con capucha</nombre>
+                          <referencia>SC001</referencia>
+                          <precio>60.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones de deporte</nombre>
+                          <referencia>PD001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Carlos</nombre>
+                  <apellidos>Ruiz Martínez</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Paseo de Gracia 456</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08009</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>carlos@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-02-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>024</numero_pedido>
+                  <fecha_compra>2022-02-15</fecha_compra>
+                  <fecha_entrega>2022-02-20</fecha_entrega>
+                  <total_factura>130.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Chaqueta impermeable</nombre>
+                          <referencia>CI002</referencia>
+                          <precio>90.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Paraguas plegable</nombre>
+                          <referencia>PP001</referencia>
+                          <precio>40.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Marta</nombre>
+                  <apellidos>Gómez López</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Ronda de Valencia 123</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28009</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>marta@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-02-20</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>025</numero_pedido>
+                  <fecha_compra>2022-02-20</fecha_compra>
+                  <fecha_entrega>2022-02-25</fecha_entrega>
+                  <total_factura>75.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Gorra de béisbol</nombre>
+                          <referencia>GB001</referencia>
+                          <precio>25.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Gafas de sol</nombre>
+                          <referencia>GS002</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Pablo</nombre>
+                  <apellidos>Fernández López</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 123</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08010</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>pablo@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-02-25</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>026</numero_pedido>
+                  <fecha_compra>2022-02-25</fecha_compra>
+                  <fecha_entrega>2022-03-01</fecha_entrega>
+                  <total_factura>140.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Botas de montaña</nombre>
+                          <referencia>BM002</referencia>
+                          <precio>100.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Calcetines de senderismo</nombre>
+                          <referencia>CS001</referencia>
+                          <precio>40.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Alba</nombre>
+                  <apellidos>Ruiz Martínez</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle Mayor 456</calle>
+                      <ciudad>Sevilla</ciudad>
+                      <codigo_postal>41010</codigo_postal>
+                      <provincia>Sevilla</provincia>
+                  </direccion>
+                  <correo>alba@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-03-01</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>027</numero_pedido>
+                  <fecha_compra>2022-03-01</fecha_compra>
+                  <fecha_entrega>2022-03-05</fecha_entrega>
+                  <total_factura>160.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Chaqueta de entretiempo</nombre>
+                          <referencia>CE001</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pañuelo de seda</nombre>
+                          <referencia>PS002</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Javier</nombre>
+                  <apellidos>Gómez Martínez</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 456</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08011</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>javier@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-03-05</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>028</numero_pedido>
+                  <fecha_compra>2022-03-05</fecha_compra>
+                  <fecha_entrega>2022-03-10</fecha_entrega>
+                  <total_factura>110.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Camiseta de tirantes</nombre>
+                          <referencia>CT001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones cortos deportivos</nombre>
+                          <referencia>PD002</referencia>
+                          <precio>60.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>María</nombre>
+                  <apellidos>Ruiz López</apellidos>
+                  <telefono>555666777</telefono>
+                  <direccion>
+                      <calle>Calle Mayor 123</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28010</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>maria@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-03-10</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>029</numero_pedido>
+                  <fecha_compra>2022-03-10</fecha_compra>
+                  <fecha_entrega>2022-03-15</fecha_entrega>
+                  <total_factura>95.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Camiseta estampada</nombre>
+                          <referencia>CE002</referencia>
+                          <precio>45.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones vaqueros</nombre>
+                          <referencia>PV003</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+      </trimestre>
+      <trimestre num="4">
+        <pedido>
+            <cliente>
+                <nombre>Luis</nombre>
+                <apellidos>González López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28011</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>luis@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-01</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>030</numero_pedido>
+                <fecha_compra>2022-04-01</fecha_compra>
+                <fecha_entrega>2022-04-05</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta básica</nombre>
+                        <referencia>CB001</referencia>
+                        <precio>35.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones cortos</nombre>
+                        <referencia>PC001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Elena</nombre>
+                <apellidos>Ruiz Gómez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08012</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>elena@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>031</numero_pedido>
+                <fecha_compra>2022-04-05</fecha_compra>
+                <fecha_entrega>2022-04-10</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Botines de piel</nombre>
+                        <referencia>BP001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL005</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Gómez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41011</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>032</numero_pedido>
+                <fecha_compra>2022-04-10</fecha_compra>
+                <fecha_entrega>2022-04-15</fecha_entrega>
+                <total_factura>110.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Sudadera con capucha</nombre>
+                        <referencia>SC002</referencia>
+                        <precio>60.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones de deporte</nombre>
+                        <referencia>PD002</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Sofía</nombre>
+                <apellidos>Ruiz Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08013</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>sofia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>033</numero_pedido>
+                <fecha_compra>2022-04-15</fecha_compra>
+                <fecha_entrega>2022-04-20</fecha_entrega>
+                <total_factura>130.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC004</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de seda</nombre>
+                        <referencia>BS001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Gómez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Ronda de Valencia 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41012</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>034</numero_pedido>
+                <fecha_compra>2022-04-20</fecha_compra>
+                <fecha_entrega>2022-04-25</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camisa de lino</nombre>
+                        <referencia>CL001</referencia>
+                        <precio>60.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones chinos</nombre>
+                        <referencia>PC002</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Miguel</nombre>
+                <apellidos>García Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida del Mar 123</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08014</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>miguel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>035</numero_pedido>
+                <fecha_compra>2022-04-25</fecha_compra>
+                <fecha_entrega>2022-04-30</fecha_entrega>
+                <total_factura>90.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta estampada</nombre>
+                        <referencia>CE003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Shorts de playa</nombre>
+                        <referencia>SB001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Paula</nombre>
+                <apellidos>Ruiz Sánchez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28012</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>paula@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-30</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>036</numero_pedido>
+                <fecha_compra>2022-04-30</fecha_compra>
+                <fecha_entrega>2022-05-05</fecha_entrega>
+                <total_factura>80.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta de rayas</nombre>
+                        <referencia>CR001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones cortos</nombre>
+                        <referencia>PC003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Ruiz Gómez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08015</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>lucia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-01</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>037</numero_pedido>
+                <fecha_compra>2022-05-01</fecha_compra>
+                <fecha_entrega>2022-05-06</fecha_entrega>
+                <total_factura>95.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta vaquera</nombre>
+                        <referencia>CV001</referencia>
+                        <precio>55.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de algodón</nombre>
+                        <referencia>BA002</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Jorge</nombre>
+                <apellidos>Gómez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Ronda de Valencia 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>jorge@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>038</numero_pedido>
+                <fecha_compra>2022-05-05</fecha_compra>
+                <fecha_entrega>2022-05-10</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gorro de punto</nombre>
+                        <referencia>GP002</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Clara</nombre>
+                <apellidos>Ruiz Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08016</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>clara@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>039</numero_pedido>
+                <fecha_compra>2022-05-10</fecha_compra>
+                <fecha_entrega>2022-05-15</fecha_entrega>
+                <total_factura>140.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Cazadora bomber</nombre>
+                        <referencia>CB002</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL006</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Diego</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 123</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>diego@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>040</numero_pedido>
+                <fecha_compra>2022-05-15</fecha_compra>
+                <fecha_entrega>2022-05-20</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta de manga larga</nombre>
+                        <referencia>CM002</referencia>
+                        <precio>35.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de algodón</nombre>
+                        <referencia>BA003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+    </trimestre>
+    <trimestre num="4">
+        <pedido>
+            <cliente>
+                <nombre>Luis</nombre>
+                <apellidos>González López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28011</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>luis@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-01</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>030</numero_pedido>
+                <fecha_compra>2022-04-01</fecha_compra>
+                <fecha_entrega>2022-04-05</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta básica</nombre>
+                        <referencia>CB001</referencia>
+                        <precio>35.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones cortos</nombre>
+                        <referencia>PC001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Elena</nombre>
+                <apellidos>Ruiz Gómez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08012</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>elena@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>031</numero_pedido>
+                <fecha_compra>2022-04-05</fecha_compra>
+                <fecha_entrega>2022-04-10</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Botines de piel</nombre>
+                        <referencia>BP001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL005</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Gómez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41011</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>032</numero_pedido>
+                <fecha_compra>2022-04-10</fecha_compra>
+                <fecha_entrega>2022-04-15</fecha_entrega>
+                <total_factura>110.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Sudadera con capucha</nombre>
+                        <referencia>SC002</referencia>
+                        <precio>60.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones de deporte</nombre>
+                        <referencia>PD002</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Sofía</nombre>
+                <apellidos>Ruiz Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08013</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>sofia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>033</numero_pedido>
+                <fecha_compra>2022-04-15</fecha_compra>
+                <fecha_entrega>2022-04-20</fecha_entrega>
+                <total_factura>130.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC004</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de seda</nombre>
+                        <referencia>BS001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Gómez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Ronda de Valencia 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41012</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>034</numero_pedido>
+                <fecha_compra>2022-04-20</fecha_compra>
+                <fecha_entrega>2022-04-25</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camisa de lino</nombre>
+                        <referencia>CL001</referencia>
+                        <precio>60.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones chinos</nombre>
+                        <referencia>PC002</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Miguel</nombre>
+                <apellidos>García Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida del Mar 123</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08014</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>miguel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>035</numero_pedido>
+                <fecha_compra>2022-04-25</fecha_compra>
+                <fecha_entrega>2022-04-30</fecha_entrega>
+                <total_factura>90.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta estampada</nombre>
+                        <referencia>CE003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Shorts de playa</nombre>
+                        <referencia>SB001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Paula</nombre>
+                <apellidos>Ruiz Sánchez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28012</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>paula@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-04-30</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>036</numero_pedido>
+                <fecha_compra>2022-04-30</fecha_compra>
+                <fecha_entrega>2022-05-05</fecha_entrega>
+                <total_factura>80.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta de rayas</nombre>
+                        <referencia>CR001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalones cortos</nombre>
+                        <referencia>PC003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Ruiz Gómez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08015</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>lucia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-01</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>037</numero_pedido>
+                <fecha_compra>2022-05-01</fecha_compra>
+                <fecha_entrega>2022-05-06</fecha_entrega>
+                <total_factura>95.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta vaquera</nombre>
+                        <referencia>CV001</referencia>
+                        <precio>55.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de algodón</nombre>
+                        <referencia>BA002</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Jorge</nombre>
+                <apellidos>Gómez López</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Ronda de Valencia 123</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41013</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>jorge@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>038</numero_pedido>
+                <fecha_compra>2022-05-05</fecha_compra>
+                <fecha_entrega>2022-05-10</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gorro de punto</nombre>
+                        <referencia>GP002</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Clara</nombre>
+                <apellidos>Ruiz Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 456</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08016</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>clara@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>039</numero_pedido>
+                <fecha_compra>2022-05-10</fecha_compra>
+                <fecha_entrega>2022-05-15</fecha_entrega>
+                <total_factura>140.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Cazadora bomber</nombre>
+                        <referencia>CB002</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL006</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Diego</nombre>
+                <apellidos>García Pérez</apellidos>
+                <telefono>555666777</telefono>
+                <direccion>
+                    <calle>Calle Mayor 123</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>diego@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-05-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>040</numero_pedido>
+                <fecha_compra>2022-05-15</fecha_compra>
+                <fecha_entrega>2022-05-20</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Camiseta de manga larga</nombre>
+                        <referencia>CM002</referencia>
+                        <precio>35.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de algodón</nombre>
+                        <referencia>BA003</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+    </trimestre>
+    </anio>
+    <anio year="2022">
+      <trimestre num="1">
+        <pedido>
+            <cliente>
+                <nombre>Maria</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>maria@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>2022-01-10</fecha_compra>
+                <fecha_entrega>2022-01-15</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Pantalones vaqueros</nombre>
+                        <referencia>PV002</referencia>
+                        <precio>45.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Camisa de rayas</nombre>
+                        <referencia>CR001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Fernández Ruiz</apellidos>
+                <telefono>666555444</telefono>
+                <direccion>
+                    <calle>Calle del Prado 789</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41010</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>carlos@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>2022-01-15</fecha_compra>
+                <fecha_entrega>2022-01-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Zapatos de vestir</nombre>
+                        <referencia>ZV003</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Cinturón de piel</nombre>
+                        <referencia>CP003</referencia>
+                        <precio>70.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Gómez Sánchez</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08010</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Sombrero de paja</nombre>
+                        <referencia>SP001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gafas de sol</nombre>
+                        <referencia>GS001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Pablo</nombre>
+                <apellidos>Ramírez Gómez</apellidos>
+                <telefono>777888999</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 123</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08007</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>pablo@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2022-01-25</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>180.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC002</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalón de vestir</nombre>
+                        <referencia>PV003</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Rodríguez Martín</apellidos>
+                <telefono>333444555</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pere 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08008</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-30</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2022-01-30</fecha_compra>
+                <fecha_entrega>2022-02-04</fecha_entrega>
+                <total_factura>240.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Falda larga</nombre>
+                        <referencia>FL001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Blusa estampada</nombre>
+                        <referencia>BE001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Hernández López</apellidos>
+                <telefono>888999000</telefono>
+                <direccion>
+                    <calle>Calle Mayor 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28005</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2022-02-05</fecha_compra>
+                <fecha_entrega>2022-02-10</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes térmicos</nombre>
+                        <referencia>GT001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Gutiérrez López</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida del Parque 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08020</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>lucia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2022-02-10</fecha_compra>
+                <fecha_entrega>2022-02-15</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda a cuadros</nombre>
+                        <referencia>BC001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Manuel</nombre>
+                <apellidos>Rodríguez Martínez</apellidos>
+                <telefono>444555666</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28010</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>manuel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2022-02-15</fecha_compra>
+                <fecha_entrega>2022-02-20</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de invierno</nombre>
+                        <referencia>CI001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de cashmere</nombre>
+                        <referencia>BC002</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Marta</nombre>
+                  <apellidos>Fernández López</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Calle Gran Vía 456</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28013</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>marta@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-12</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>002</numero_pedido>
+                  <fecha_compra>2022-01-12</fecha_compra>
+                  <fecha_entrega>2022-01-17</fecha_entrega>
+                  <total_factura>95.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Jersey de lana</nombre>
+                          <referencia>JL001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones vaqueros</nombre>
+                          <referencia>PV002</referencia>
+                          <precio>45.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Carlos</nombre>
+                  <apellidos>Gómez Martínez</apellidos>
+                  <telefono>123456789</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 789</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08015</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>carlos@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2021-01-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>2022-01-15</fecha_compra>
+                  <fecha_entrega>2022-01-20</fecha_entrega>
+                  <total_factura>150.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Zapatos de vestir</nombre>
+                          <referencia>ZV003</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Cinturón de cuero</nombre>
+                          <referencia>CC002</referencia>
+                          <precio>70.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+      </trimestre>
+      <trimestre num="2">
+        <pedido>
+            <cliente>
+                <nombre>Maria</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>maria@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>2022-01-10</fecha_compra>
+                <fecha_entrega>2022-01-15</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Pantalones vaqueros</nombre>
+                        <referencia>PV002</referencia>
+                        <precio>45.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Camisa de rayas</nombre>
+                        <referencia>CR001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Fernández Ruiz</apellidos>
+                <telefono>666555444</telefono>
+                <direccion>
+                    <calle>Calle del Prado 789</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41010</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>carlos@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>2022-01-15</fecha_compra>
+                <fecha_entrega>2022-01-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Zapatos de vestir</nombre>
+                        <referencia>ZV003</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Cinturón de piel</nombre>
+                        <referencia>CP003</referencia>
+                        <precio>70.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Gómez Sánchez</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08010</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Sombrero de paja</nombre>
+                        <referencia>SP001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gafas de sol</nombre>
+                        <referencia>GS001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Pablo</nombre>
+                <apellidos>Ramírez Gómez</apellidos>
+                <telefono>777888999</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 123</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08007</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>pablo@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2022-01-25</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>180.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC002</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalón de vestir</nombre>
+                        <referencia>PV003</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Rodríguez Martín</apellidos>
+                <telefono>333444555</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pere 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08008</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-30</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2022-01-30</fecha_compra>
+                <fecha_entrega>2022-02-04</fecha_entrega>
+                <total_factura>240.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Falda larga</nombre>
+                        <referencia>FL001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Blusa estampada</nombre>
+                        <referencia>BE001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Hernández López</apellidos>
+                <telefono>888999000</telefono>
+                <direccion>
+                    <calle>Calle Mayor 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28005</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2022-02-05</fecha_compra>
+                <fecha_entrega>2022-02-10</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes térmicos</nombre>
+                        <referencia>GT001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Gutiérrez López</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida del Parque 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08020</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>lucia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2022-02-10</fecha_compra>
+                <fecha_entrega>2022-02-15</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda a cuadros</nombre>
+                        <referencia>BC001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Manuel</nombre>
+                <apellidos>Rodríguez Martínez</apellidos>
+                <telefono>444555666</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28010</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>manuel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2022-02-15</fecha_compra>
+                <fecha_entrega>2022-02-20</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de invierno</nombre>
+                        <referencia>CI001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de cashmere</nombre>
+                        <referencia>BC002</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Marta</nombre>
+                  <apellidos>Fernández López</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Calle Gran Vía 456</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28013</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>marta@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-12</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>002</numero_pedido>
+                  <fecha_compra>2022-01-12</fecha_compra>
+                  <fecha_entrega>2022-01-17</fecha_entrega>
+                  <total_factura>95.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Jersey de lana</nombre>
+                          <referencia>JL001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones vaqueros</nombre>
+                          <referencia>PV002</referencia>
+                          <precio>45.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Carlos</nombre>
+                  <apellidos>Gómez Martínez</apellidos>
+                  <telefono>123456789</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 789</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08015</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>carlos@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>2022-01-15</fecha_compra>
+                  <fecha_entrega>2022-01-20</fecha_entrega>
+                  <total_factura>150.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Zapatos de vestir</nombre>
+                          <referencia>ZV003</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Cinturón de cuero</nombre>
+                          <referencia>CC002</referencia>
+                          <precio>70.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+      </trimestre>
+      <trimestre num="3">
+        <pedido>
+            <cliente>
+                <nombre>Maria</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>maria@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>2022-01-10</fecha_compra>
+                <fecha_entrega>2022-01-15</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Pantalones vaqueros</nombre>
+                        <referencia>PV002</referencia>
+                        <precio>45.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Camisa de rayas</nombre>
+                        <referencia>CR001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Fernández Ruiz</apellidos>
+                <telefono>666555444</telefono>
+                <direccion>
+                    <calle>Calle del Prado 789</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41010</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>carlos@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>2022-01-15</fecha_compra>
+                <fecha_entrega>2022-01-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Zapatos de vestir</nombre>
+                        <referencia>ZV003</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Cinturón de piel</nombre>
+                        <referencia>CP003</referencia>
+                        <precio>70.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Gómez Sánchez</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08010</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Sombrero de paja</nombre>
+                        <referencia>SP001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gafas de sol</nombre>
+                        <referencia>GS001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Pablo</nombre>
+                <apellidos>Ramírez Gómez</apellidos>
+                <telefono>777888999</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 123</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08007</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>pablo@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2022-01-25</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>180.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC002</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalón de vestir</nombre>
+                        <referencia>PV003</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Rodríguez Martín</apellidos>
+                <telefono>333444555</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pere 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08008</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-30</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2022-01-30</fecha_compra>
+                <fecha_entrega>2022-02-04</fecha_entrega>
+                <total_factura>240.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Falda larga</nombre>
+                        <referencia>FL001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Blusa estampada</nombre>
+                        <referencia>BE001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Hernández López</apellidos>
+                <telefono>888999000</telefono>
+                <direccion>
+                    <calle>Calle Mayor 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28005</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2022-02-05</fecha_compra>
+                <fecha_entrega>2022-02-10</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes térmicos</nombre>
+                        <referencia>GT001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Gutiérrez López</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida del Parque 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08020</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>lucia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2022-02-10</fecha_compra>
+                <fecha_entrega>2022-02-15</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda a cuadros</nombre>
+                        <referencia>BC001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Manuel</nombre>
+                <apellidos>Rodríguez Martínez</apellidos>
+                <telefono>444555666</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28010</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>manuel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2022-02-15</fecha_compra>
+                <fecha_entrega>2022-02-20</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de invierno</nombre>
+                        <referencia>CI001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de cashmere</nombre>
+                        <referencia>BC002</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Marta</nombre>
+                  <apellidos>Fernández López</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Calle Gran Vía 456</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28013</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>marta@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-12</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>002</numero_pedido>
+                  <fecha_compra>2022-01-12</fecha_compra>
+                  <fecha_entrega>2022-01-17</fecha_entrega>
+                  <total_factura>95.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Jersey de lana</nombre>
+                          <referencia>JL001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones vaqueros</nombre>
+                          <referencia>PV002</referencia>
+                          <precio>45.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Carlos</nombre>
+                  <apellidos>Gómez Martínez</apellidos>
+                  <telefono>123456789</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 789</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08015</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>carlos@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>2022-01-15</fecha_compra>
+                  <fecha_entrega>2022-01-20</fecha_entrega>
+                  <total_factura>150.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Zapatos de vestir</nombre>
+                          <referencia>ZV003</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Cinturón de cuero</nombre>
+                          <referencia>CC002</referencia>
+                          <precio>70.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+      </trimestre>
+      <trimestre num="4">
+        <pedido>
+            <cliente>
+                <nombre>Maria</nombre>
+                <apellidos>López Martínez</apellidos>
+                <telefono>987654321</telefono>
+                <direccion>
+                    <calle>Calle Gran Vía 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28013</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>maria@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>2022-01-10</fecha_compra>
+                <fecha_entrega>2022-01-15</fecha_entrega>
+                <total_factura>85.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Pantalones vaqueros</nombre>
+                        <referencia>PV002</referencia>
+                        <precio>45.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Camisa de rayas</nombre>
+                        <referencia>CR001</referencia>
+                        <precio>40.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Fernández Ruiz</apellidos>
+                <telefono>666555444</telefono>
+                <direccion>
+                    <calle>Calle del Prado 789</calle>
+                    <ciudad>Sevilla</ciudad>
+                    <codigo_postal>41010</codigo_postal>
+                    <provincia>Sevilla</provincia>
+                </direccion>
+                <correo>carlos@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>2022-01-15</fecha_compra>
+                <fecha_entrega>2022-01-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Zapatos de vestir</nombre>
+                        <referencia>ZV003</referencia>
+                        <precio>80.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Cinturón de piel</nombre>
+                        <referencia>CP003</referencia>
+                        <precio>70.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Gómez Sánchez</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida Diagonal 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08010</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-20</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Sombrero de paja</nombre>
+                        <referencia>SP001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Gafas de sol</nombre>
+                        <referencia>GS001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Pablo</nombre>
+                <apellidos>Ramírez Gómez</apellidos>
+                <telefono>777888999</telefono>
+                <direccion>
+                    <calle>Paseo de Gracia 123</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08007</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>pablo@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-25</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2022-01-25</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>180.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de cuero</nombre>
+                        <referencia>CC002</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Pantalón de vestir</nombre>
+                        <referencia>PV003</referencia>
+                        <precio>90.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Ana</nombre>
+                <apellidos>Rodríguez Martín</apellidos>
+                <telefono>333444555</telefono>
+                <direccion>
+                    <calle>Ronda de Sant Pere 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08008</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>ana@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-01-30</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2022-01-30</fecha_compra>
+                <fecha_entrega>2022-02-04</fecha_entrega>
+                <total_factura>240.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Falda larga</nombre>
+                        <referencia>FL001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Blusa estampada</nombre>
+                        <referencia>BE001</referencia>
+                        <precio>120.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Hernández López</apellidos>
+                <telefono>888999000</telefono>
+                <direccion>
+                    <calle>Calle Mayor 456</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28005</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>david@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-05</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2022-02-05</fecha_compra>
+                <fecha_entrega>2022-02-10</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Bufanda de lana</nombre>
+                        <referencia>BL001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Guantes térmicos</nombre>
+                        <referencia>GT001</referencia>
+                        <precio>50.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Lucía</nombre>
+                <apellidos>Gutiérrez López</apellidos>
+                <telefono>111222333</telefono>
+                <direccion>
+                    <calle>Avenida del Parque 789</calle>
+                    <ciudad>Barcelona</ciudad>
+                    <codigo_postal>08020</codigo_postal>
+                    <provincia>Barcelona</provincia>
+                </direccion>
+                <correo>lucia@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-10</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2022-02-10</fecha_compra>
+                <fecha_entrega>2022-02-15</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Jersey de lana</nombre>
+                        <referencia>JL001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda a cuadros</nombre>
+                        <referencia>BC001</referencia>
+                        <precio>75.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+        </pedido>
+        <pedido>
+            <cliente>
+                <nombre>Manuel</nombre>
+                <apellidos>Rodríguez Martínez</apellidos>
+                <telefono>444555666</telefono>
+                <direccion>
+                    <calle>Calle Mayor 789</calle>
+                    <ciudad>Madrid</ciudad>
+                    <codigo_postal>28010</codigo_postal>
+                    <provincia>Madrid</provincia>
+                </direccion>
+                <correo>manuel@example.com</correo>
+            </cliente>
+            <fecha_inclusion>2022-02-15</fecha_inclusion>
+            <detalle_pedido>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2022-02-15</fecha_compra>
+                <fecha_entrega>2022-02-20</fecha_entrega>
+                <total_factura>200.00</total_factura>
+                <productos>
+                    <producto>
+                        <nombre>Chaqueta de invierno</nombre>
+                        <referencia>CI001</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                    <producto>
+                        <nombre>Bufanda de cashmere</nombre>
+                        <referencia>BC002</referencia>
+                        <precio>100.00</precio>
+                        <unidades>1</unidades>
+                    </producto>
+                </productos>
+            </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Marta</nombre>
+                  <apellidos>Fernández López</apellidos>
+                  <telefono>987654321</telefono>
+                  <direccion>
+                      <calle>Calle Gran Vía 456</calle>
+                      <ciudad>Madrid</ciudad>
+                      <codigo_postal>28013</codigo_postal>
+                      <provincia>Madrid</provincia>
+                  </direccion>
+                  <correo>marta@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-12</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>002</numero_pedido>
+                  <fecha_compra>2022-01-12</fecha_compra>
+                  <fecha_entrega>2022-01-17</fecha_entrega>
+                  <total_factura>95.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Jersey de lana</nombre>
+                          <referencia>JL001</referencia>
+                          <precio>50.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Pantalones vaqueros</nombre>
+                          <referencia>PV002</referencia>
+                          <precio>45.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+          <pedido>
+              <cliente>
+                  <nombre>Carlos</nombre>
+                  <apellidos>Gómez Martínez</apellidos>
+                  <telefono>123456789</telefono>
+                  <direccion>
+                      <calle>Avenida Diagonal 789</calle>
+                      <ciudad>Barcelona</ciudad>
+                      <codigo_postal>08015</codigo_postal>
+                      <provincia>Barcelona</provincia>
+                  </direccion>
+                  <correo>carlos@example.com</correo>
+              </cliente>
+              <fecha_inclusion>2022-01-15</fecha_inclusion>
+              <detalle_pedido>
+                  <numero_pedido>003</numero_pedido>
+                  <fecha_compra>2022-01-15</fecha_compra>
+                  <fecha_entrega>2022-01-20</fecha_entrega>
+                  <total_factura>150.00</total_factura>
+                  <productos>
+                      <producto>
+                          <nombre>Zapatos de vestir</nombre>
+                          <referencia>ZV003</referencia>
+                          <precio>80.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                      <producto>
+                          <nombre>Cinturón de cuero</nombre>
+                          <referencia>CC002</referencia>
+                          <precio>70.00</precio>
+                          <unidades>1</unidades>
+                      </producto>
+                  </productos>
+              </detalle_pedido>
+          </pedido>
+      </trimestre>
     </anio>
 </pedidos>
